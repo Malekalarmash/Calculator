@@ -1,0 +1,52 @@
+.container{
+   max-width: 400px;
+   margin: 10vh auto 0 auto; 
+   box-shadow: 0px 0px 2px 1px rgba(153, 153, 153, 1); 
+}
+#display{
+    text-align: right;
+    height: 100px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 40px;
+    border: 0.5px solid rgb(165, 20, 20); 
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    
+}
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button {
+    border: 0.5px solid #999; 
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(91, 122, 246);
+    color: rgb(0, 0, 0);
+}
+
+.button:hover{
+    background-color: rgb(246, 91, 166);;
+    color: white; 
+    transition: 0.5s ease-in-out; 
+}
+
+#erase {
+    background-color: rgb(91, 122, 246);
+    color: rgb(0, 0, 0);
+}
